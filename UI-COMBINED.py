@@ -13,8 +13,10 @@ from sklearn.metrics import classification_report
 import re
 import time
 import string
-data_fake=pd.read_csv("Fake.csv")
-data_true=pd.read_csv("True.csv")
+
+data_fake = pd.read_csv("C:\\Users\\hp\\OneDrive\\Desktop\\fake\\FakeAndRealNewsPredictionStreamlitWebApp\\Fake.csv")
+
+data_true = pd.read_csv("C:\\Users\\hp\\OneDrive\\Desktop\\fake\\FakeAndRealNewsPredictionStreamlitWebApp\\True.csv")
 
 #data_fake.head()
 
